@@ -1,0 +1,32 @@
+#!/bin/sh -e
+
+action="$1"
+oldversion="$2"
+
+umask 022
+
+if [ "$action" != configure ]
+  then
+  exit 0
+fi
+
+repoexist1=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list.d/* || true`
+repoexist2=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list || true`
+if [ "$repoexist1" = "" ]
+then
+    if [ "$repoexist2" = "" ]
+    then
+         touch /etc/apt/sources.list.d/grasehotspot.list
+         echo "deb http://hotspot.purewhite.id.au/apt/ purewhite main" > /etc/apt/sources.list.d/grasehotspot.list
+    fi
+fi
+
+apt-key add /usr/share/grase/grase-repo-keyring/grase.hotspot.gpg
+
+## Below is done in retrieve_key_cert
+
+#DEBHELPER#
+
+exit 0
+
+

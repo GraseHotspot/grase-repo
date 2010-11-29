@@ -1,0 +1,11 @@
+#!/bin/sh
+# postrm script for grase-conf-openvpn
+
+set -e
+set -u
+
+# Remove apt sources?
+
+# rm /etc/apt/sources.list.d/grasehotspot.list
+
+#DEBHELPER#
