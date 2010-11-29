@@ -11,8 +11,8 @@ then
     fi
 fi
 
-apt-get update -q
+apt-get update -qq
 
-apt-get install -q -y `dpkg -l grase-* | grep ii | awk '{ print $2; }'`
+apt-get install -qq -y `dpkg -l grase-* | grep ii | awk '{ print $2; }'`
 exit 0
 
