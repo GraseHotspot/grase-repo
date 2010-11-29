@@ -1,3 +1,10 @@
+grase-repo (1.1) unstable; urgency=low
+
+  [ Tim White ]
+  * Make cron job quiet
+
+ -- Tim White <tim@hotspot.purewhite.id.au>  Mon, 29 Nov 2010 23:22:05 +1000
+
 grase-repo (1.0) unstable; urgency=low
 
   [ Tim White ]
