@@ -8,7 +8,7 @@ Homepage: http://hotspot.purewhite.id.au/
 
 Package: grase-repo
 Architecture: all
-Depends: ${misc:Depends}, gnupg2 | gpg
+Depends: ${misc:Depends}, gnupg | gnupg2 | gpg
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Config files for OpenVPN for the GRASE Hotspot System

@@ -1,8 +1,14 @@
+grase-repo (1.1-2) purewhite; urgency=low
+
+  * Add gnupg to depends options
+
+ -- Tim White <tim@hotspot.purewhite.id.au>  Wed, 01 Dec 2010 20:39:31 +1000
+
 grase-repo (1.1-1) purewhite; urgency=low
 
   * Depend on gpg or gnupg2
 
- -- Tim <tim@sara-linux>  Tue, 30 Nov 2010 01:57:55 +1000
+ -- Tim White <tim@hotspot.purewhite.id.au>  Tue, 30 Nov 2010 01:57:55 +1000
 
 grase-repo (1.1) purewhite; urgency=low
 
