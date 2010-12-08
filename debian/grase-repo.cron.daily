@@ -1,7 +1,7 @@
 #!/bin/bash
 
-repoexist1=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list.d/*`
-repoexist2=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list`
+repoexist1=`grep "^deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list.d/*`
+repoexist2=`grep "^deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list`
 if [ "$repoexist1" = "" ]
 then
     if [ "$repoexist2" = "" ]
@@ -13,6 +13,6 @@ fi
 
 apt-get update -qq
 
-apt-get install -qq -y `dpkg -l grase-* | grep ii | awk '{ print $2; }'`
+apt-get install -qq -y `dpkg -l 'grase-*' | grep ii | awk '{ print $2; }'`
 exit 0
 

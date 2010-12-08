@@ -10,8 +10,8 @@ if [ "$action" != configure ]
   exit 0
 fi
 
-repoexist1=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list.d/* || true`
-repoexist2=`grep "deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list || true`
+repoexist1=`grep "^deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list.d/* || true`
+repoexist2=`grep "^deb http://hotspot.purewhite.id.au/apt/ purewhite main" /etc/apt/sources.list || true`
 if [ "$repoexist1" = "" ]
 then
     if [ "$repoexist2" = "" ]
