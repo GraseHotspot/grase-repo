@@ -3,5 +3,8 @@ The Debian Package grase-repo
 
 This Package provides the apt url so that updates are automatically fetched
 via the apt system.
+After installing this package you will need to do update the package list then install the rest of the components.
+$ sudo apt-get update
+$ sudo apt-get install grase-www-portal grase-conf-freeradius grase-conf-squid3 grase-conf-openvpn
 
- -- unknown <tim@hotspot.purewhite.id.au>  Sun, 25 Apr 2010 05:38:26 +0800
+ -- Tim White <tim@purewhite.id.au>  Wed, 16 Mar 2011 13:30:00 +1000
