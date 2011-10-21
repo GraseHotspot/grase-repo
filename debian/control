@@ -11,7 +11,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Config files for OpenVPN for the GRASE Hotspot System
+Description: Apt Repository for the GRASE Hotspot System
  The GRASE Hotspot System binds together CoovaChilli, Freeradius, MySQL,
  and other systems as well as providing an administrative frontend to managing
  users and other hotspot related tasks.
