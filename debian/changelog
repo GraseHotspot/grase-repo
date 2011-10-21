@@ -1,8 +1,8 @@
-grase-repo (1.2-1) purewhite; urgency=low
+grase-repo (1.2) purewhite; urgency=low
 
   * Moved apt server to apt.grasehotspot.org
 
- -- Tim White <tim@hotspot.purewhite.id.au>  Fri, 21 Oct 2011 13:15:56 +1000
+ -- Tim White <tim@hotspot.purewhite.id.au>  Fri, 21 Oct 2011 13:18:57 +1000
 
 grase-repo (1.1-5) purewhite; urgency=low
 
