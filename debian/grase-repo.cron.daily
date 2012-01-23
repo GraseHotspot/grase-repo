@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repoexist2=`grep "^deb http://packages.grasehotspot.org/ purewhite main" /etc/apt/sources.list.d/* /etc/apt/sources.list`
+repoexist2=`grep "packages.grasehotspot.org/ purewhite main" /etc/apt/sources.list.d/* /etc/apt/sources.list`
     if [ "$repoexist2" = "" ]
     then
          touch /etc/apt/sources.list.d/grasehotspot.list

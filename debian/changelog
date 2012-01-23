@@ -1,3 +1,10 @@
+grase-repo (1.3) purewhite; urgency=low
+
+  * Loosen checking for repo still being active
+  * Apt server is packages.grasehotspot.org
+
+ -- Tim White <tim@hotspot.purewhite.id.au>  Mon, 23 Jan 2012 12:46:36 +1000
+
 grase-repo (1.2) purewhite; urgency=low
 
   * Moved apt server to apt.grasehotspot.org
