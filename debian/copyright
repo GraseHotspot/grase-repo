@@ -1,10 +1,10 @@
 This work was packaged for Debian by:
 
-    Timothy White <tim@hotspot.purewhite.id.au> on Sun, 25 Apr 2010 05:38:26 +0800
+    Timothy White <tim@grasehotspot.org> on Sun, 25 Apr 2010 05:38:26 +0800
 
 Upstream Author:
 
-    Timothy White <tim@hotspot.purewhite.id.au>
+    Timothy White <tim@grasehotspot.org>
 
 Copyright:
 
@@ -30,6 +30,6 @@ Public License version 3 can be found in `/usr/share/common-licenses/GPL-3'.
 
 The Debian packaging is:
 
-    Copyright (C) 2011 Timothy White <tim@hotspot.purewhite.id.au>
+    Copyright (C) 2011 Timothy White <tim@grasehotspot.org>
 
 and is licensed under the GPL version 3, see above.

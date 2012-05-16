@@ -1,10 +1,10 @@
 Source: grase-repo
 Section: config
 Priority: extra
-Maintainer: Tim White <tim@hotspot.purewhite.id.au>
+Maintainer: Tim White <tim@grasehotspot.org>
 Build-Depends: config-package-dev
 Standards-Version: 3.9.2
-Homepage: http://hotspot.purewhite.id.au/
+Homepage: http://grasehotspot.org/
 
 Package: grase-repo
 Architecture: all
