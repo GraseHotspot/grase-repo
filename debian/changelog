@@ -1,3 +1,9 @@
+grase-repo (1.5) UNRELEASED; urgency=medium
+
+  * New key as old one has expired
+
+ -- Tim White <tim@grasehotspot.org>  Tue, 20 May 2014 19:56:19 +1000
+
 grase-repo (1.4) purewhite; urgency=low
 
   * New key for when old signing key expires
