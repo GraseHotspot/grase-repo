@@ -1,3 +1,10 @@
+grase-repo (1.6) purewhite; urgency=medium
+
+  * Allow grase-conf-squid3* updates to come with coova-chilli so our upgrade
+    works
+
+ -- Tim White <tim@grasehotspot.org>  Fri, 06 Nov 2015 21:33:53 +1000
+
 grase-repo (1.5) purewhite; urgency=medium
 
   * New key as old one has expired

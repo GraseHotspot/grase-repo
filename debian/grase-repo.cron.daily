@@ -9,6 +9,6 @@ repoexist2=`grep "packages.grasehotspot.org/ purewhite main" /etc/apt/sources.li
 
 apt-get update -qq
 
-apt-get install -qq -y `dpkg -l 'grase-*' | grep ii | awk '{ print $2; }'`
+apt-get install -qq -y `dpkg -l 'grase-*' | grep ii | grep -v squid3 | awk '{ print $2; }'`
 exit 0
 
