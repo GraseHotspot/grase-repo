@@ -21,8 +21,6 @@ then
     fi
 fi
 
-apt-key add /usr/share/grase/grase-repo-keyring/grase.hotspot.gpg
-
 ## Below is done in retrieve_key_cert
 
 #DEBHELPER#
