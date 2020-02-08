@@ -1,3 +1,9 @@
+grase-repo (1.8) UNRELEASED; urgency=medium
+
+  * Update key expiry
+
+ -- Tim White <tim@grasehotspot.org>  Sat, 08 Feb 2020 15:55:36 +0800
+
 grase-repo (1.7) purewhite; urgency=medium
 
   * Update key expiry date for another 3 years
